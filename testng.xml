@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="Test"><test verbose="2" preserve-order="true" name="C:/Users/Priyanka Panchal/IdeaProjects/AutomationWithMaven"><classes><class name="testcase.HomePageTest"><methods><include name="runHomePage"/></methods></class></classes></test></suite>
