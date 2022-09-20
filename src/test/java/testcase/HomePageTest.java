@@ -8,6 +8,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import page.BrowserStart;
 
+import java.io.IOException;
+
 public class HomePageTest {
     WebDriver driver;
 
@@ -20,9 +22,10 @@ public class HomePageTest {
     }
 
     @Test
-    public void runHomePage() {
+    public void runHomePage() throws IOException {
 
         browserStart.navigateToURL();
+        browserStart.takeScreenShot("ScreenShotName");
     }
 
     @AfterTest
